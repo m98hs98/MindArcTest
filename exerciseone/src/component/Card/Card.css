@@ -1,5 +1,6 @@
 .custom__card {
-    width: calc(400px + 25px);
+    /*width: calc(400px + 25px);*/
+    min-width: 400px;
     margin-top: 2rem;
     margin-bottom: 4rem;
     box-sizing: border-box;
@@ -58,7 +59,7 @@
 @media (max-width: 768px) {
 
     .custom__card {
-        width: calc(400px + 25px);
+        width: 450px;
     }
 
     .custom__card .card__img__top {

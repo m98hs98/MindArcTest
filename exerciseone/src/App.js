@@ -13,13 +13,13 @@ const App = () => {
       <Header />
       <div className="container">
         <div className='row'>
-          <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='col'>
             <Card />
           </div>
-          <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='col'>
             <Card />
           </div>
-          <div className='col-sm-12 col-md-6 col-lg-4'>
+          <div className='col'>
             <Card />
           </div>
         </div>

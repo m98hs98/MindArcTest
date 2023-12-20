@@ -1,12 +1,13 @@
 import React from 'react';
 import './Card.css';
+import image1 from '../../assets/01.jpg';
 
 
 const Card = () => {
     return (
         <div className="card custom__card">
             <div className='card__img__container'>
-                <img src="image.jpg" className="card__img__top" alt="..." />
+                <img src={image1} className="card__img__top" alt="..." />
                 <p className='card__footer'>
                     <small className='footer__copyright'>Powered by HTML.COM</small>
                 </p>
